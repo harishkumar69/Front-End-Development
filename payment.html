@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+
+    <link rel="stylesheet" href="css/payment.css">
+
+</head>
+
+<body>
+    <div class="head">
+        <div style="margin-left: 200px;">
+            <img src="img/logo2.png" height="100px" width="200px">
+        </div>
+
+        <div class="navigation">
+            <nav>
+                <a href="home">Home</a> |
+                <a href="home">My Account</a> |
+                <a href="home">Signout</a> |
+                <a href="home">Customer Care</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="flex">
+        <div class="im">
+            <img id="loc" src="img/loc.png" height="50px" width="50px">
+        </div>
+
+        <div style="margin-left: 15px;">
+            <h3>Delivery Address</h3>
+            <p>We will deliver your product to this address</p>
+        </div>
+
+        <div >
+            <p id="wall">Your wallet balance is Rs.0</p>
+        </div>
+    </div>
+
+
+
+    <div class="secflex">
+
+        <div class="address">
+
+            <label for" name ">Name</label> 
+             <input style=" margin-left: 63px;" type="text" name=" name" place holder="first name" required> <br>
+
+                <label for" address ">Adress</label> 
+             <textarea style=" margin-left: 56px; height: 60px;" name="address"> </textarea><br>
+
+                    <label for" phone ">Phone Number</label>
+             <input type=" text" name="phone" required> <br>
+
+                        <button id="butt2">
+                            Save Address
+                        </button>
+
+        </div>
+
+
+        <div class="summary">
+            <h2>Order Summary</h2>
+            <p class="sum">
+                Bag Total &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Rs.***<br>
+            </p>
+            <p class="sum">
+                Bag Discount &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp -Rs.***<br>
+            </p>
+            <p class="sum"></p>
+            Delivery &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Rs.***<br>
+            </p>
+            <p class="sum">
+                Total Amount &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Rs.****<br>
+            </p>
+
+            <button id="button">
+                Proceed to Payment
+            </button>
+
+        </div>
+
+    </div>
+
+    <h2 style="margin-left: 200px;">Select the mode of payment</h2>
+
+    <div class="mode">
+
+
+        <input type="radio" id="card" name="mode" value="card">
+        <label for="card">Credit/Debit Card</label><br>
+
+        <input type="radio" id="net" name="mode" value="nb">
+        <label for="net">Net Banking</label><br>
+
+        <input type="radio" id="cod" name="mode" value="cod">
+        <label for="cod">Cash on Delivery</label><br>
+
+        <input type="radio" id="upi" name="mode" value="upi">
+        <label for="upi">UPI</label><br>
+
+    </div>
+    <footer>
+        <table class="table">
+            <th>
+                <img src="img/secure.png" height="20px" width="40px">
+            </th>
+
+            <th>
+                Secure Payments
+            </th>
+
+            <th>
+                <img src="img/rupee.jpg" height="20px" width="40px">
+            </th>
+
+            <th>
+                Cash on Delivery
+            </th>
+
+            <th>
+                <img src="img/quality.png" height="20px" width="30px">
+            </th>
+
+            <th>
+                Quality
+            </th>
+
+            <th>
+                <img src="img/return.png" height="20px" width="40px">
+            </th>
+
+            <th>
+                Easy Returns
+            </th>
+
+        </table>
+
+    </footer>
+</body>
+
+</html>
