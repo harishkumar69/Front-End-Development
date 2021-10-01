@@ -1,0 +1,92 @@
+.head {
+    border: solid black 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.navigation {
+    margin-left: 600px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#loc {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+input {
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.secflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.summary {
+    border: solid black 1px;
+    padding: 20px;
+    margin-left: 400px;
+}
+
+#button {
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 200px;
+}
+
+#butt2 {
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.address {
+    margin-left: 200px;
+    border: solid black 1px;
+    padding: 20px;
+}
+
+
+#wall{
+    margin-top: 60px;
+    margin-left: 380px;
+}
+
+.mode {
+    margin-left: 250px;
+}
+
+.third {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.table {
+    border: dotted black 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}

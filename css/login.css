@@ -1,0 +1,59 @@
+.table {
+    margin-left: 520px;
+}
+
+#welcome {
+    font-size: 50px;
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(43, 40, 40);
+}
+
+.login {
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    border: solid black 4px;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+
+}
+
+#en {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+button {
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 350px;
+    margin-top: 5px;
+}
+#log{
+    border: solid black 1px;
+}
+
+input {
+    height: 20px;
+    width: 350px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fb{
+    margin-left: auto;
+}
+.google{
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+#terms {
+    font-size: 12px;
+}

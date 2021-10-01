@@ -1,0 +1,149 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color:black;
+}
+
+#ajiotxt {
+    margin-left: 100px;
+    color: white;
+    font-size: 30px;
+}
+
+#searchinput {
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 30px;
+    width: 400px;
+}
+
+#searchicon {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.cartflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#carticon {
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+#carttxt {
+    color: white;
+    margin-left: 5px;
+    margin-top: 35px;
+}
+
+.navbarright {
+    margin-left: 20px;
+    margin-top: 34px;
+}
+
+.a1 {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+
+.secflex img {
+    margin-top: 5px;
+    float: left;
+    padding: 12px;
+    width: 15%;
+}
+
+.secflextittle a {
+    margin-top: 10px;
+    float: left;
+    font-weight: 600;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    width: 15%;
+    text-align: center;
+}
+
+#topbrandtxt {
+    border: solid black 3px;
+    background-color: black;
+    color: white;
+    margin-top: 200px;
+    text-align: center;
+}
+.brand {
+    display: flex;
+    flex-direction: row;
+}
+.branelem {
+    margin: 10px;
+    padding: 5px;
+}
+
+.cares{
+    background-color:rgb(30, 44, 44) ;
+}
+#caresh1{
+    text-align: center;
+    color: rgb(148, 128, 90);
+}
+.caresh3{
+    text-align: center;
+    color: white;
+}
+.genh3{
+    color: rgb(148, 128, 90);
+}
+.genp{
+    color: rgb(197, 167, 167);
+}
+
+
+
+
+
+
+.end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(30, 44, 44);
+}
+
+.endleft {
+    display: flex;
+    flex-direction: row;
+}
+
+.endright {
+    display: flex;
+    flex-direction: row;
+}
+
+.endleftelem a {
+    text-decoration: none;
+    color: white;
+}
+
+.endrightelem li {
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.endleftpara {
+    color: rgb(148, 128, 90);
+    margin-left: 40px;
+}
+
+.endrightpara {
+    color: rgb(148, 128, 90);
+    margin-left: 40px;
+}
